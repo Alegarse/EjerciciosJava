@@ -1,2 +1,5 @@
-# EjerciciosJava
-Colección de ejercicios resueltos del libro de Java
+## Ejercicios de Java
+
+# Descripción
+
+Aquí iré subiendo los ejercicios de Java resueltos conforme los vaya teniendo realizados
