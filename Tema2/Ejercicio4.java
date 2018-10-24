@@ -9,13 +9,9 @@
 public class Ejercicio4 {
   public static void main(String[] args) {
 
-    double importe;
-    double conversion;
-    double calculo;
-    String cantidad
-    conversion = 166.386;
-    cantidad = 1000;
-    calculo = (double)cantidad * (double)conversion;
-    System.out.println("El importe en pesetas es:" + calculo);
+    double euros = 100;
+    double pesetas = (double)(euros * 166.386);
+    
+    System.out.println("Resultado: " + euros + " euros son " + pesetas + " pesetas");
   }
 }
