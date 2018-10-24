@@ -1,6 +1,6 @@
 /** Ejercicios de Java
 *
-* Ejercicio 9 del Tema 1
+* Ejercicio 9 de la colección
 *
 * Autor: Alejandro  García Serrano
 */
@@ -13,7 +13,7 @@ public class Ejercicio9 {
     System.out.println("                  /`\\");
     System.out.println("           _n   /` , `\\");
     System.out.println("          |  |/` /` `\\ `\\---------,");
-    System.out.println("          | /` /;-----;\\ `\\        `\\-------`\\ ");
+    System.out.println("          | /` /;-----;\\ `\\        `\\------`\\ ");
     System.out.println("          /` /` ||_|_|| `\\ `\\        `\\      `\\ ");
     System.out.println("        /` /`   ||_|_||   `\\ `\\________`\\______`\\ ");
     System.out.println("      /`_/`     '-----'     `\\_`\\-------;      |");
