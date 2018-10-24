@@ -1,6 +1,6 @@
 /** Ejercicios de Java
 *
-* Ejercicio 4 de la colección
+* Ejercicio 4 del Tema 1
 *
 * Autor: Alejandro  García Serrano
 */
