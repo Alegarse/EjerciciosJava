@@ -17,16 +17,16 @@ public class Ejercicio3 {
     
       switch (numeroPalo) {
         case 1:
-        nombrePalo = "oro";
+        nombrePalo = "Oro";
         break;
         case 2:
-        nombrePalo = "espadas";
+        nombrePalo = "Espadas";
         break;
         case 3:
-        nombrePalo = "bastos";
+        nombrePalo = "Bastos";
         break;
         case 4:
-        nombrePalo = "copas";
+        nombrePalo = "Copas";
         break;
         default:
         }
@@ -35,14 +35,14 @@ public class Ejercicio3 {
         case 1:
         nombreFigura = "As";
         break;
+        case 8:
+        nombreFigura = "Sota";
+        break;
+        case 9:
+        nombreFigura = "Caballo";
+        break;
         case 10:
-        nombreFigura = "sota";
-        break;
-        case 11:
-        nombreFigura = "caballo";
-        break;
-        case 12:
-        nombreFigura = "rey";
+        nombreFigura = "Rey";
         break;
         default:
         nombreFigura = String.valueOf(numeroFigura);
