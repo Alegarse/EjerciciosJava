@@ -9,34 +9,34 @@
 public class Ejercicio3 {
   public static void main(String[] args) {
     
-    System.out.print("Por favor, introduzca un número de 1 al 7: ");
+    System.out.print("Por favor, introduzca un número de 1 al 7 y le diré su correspondencia de día de la semana: ");
     int num = Integer.parseInt(System.console().readLine());
     
     
     switch (num) {
     case 1:
-    System.out.println (" Este número corresponde al Lunes");
+    System.out.println ("Este número corresponde al Lunes");
     break;
     case 2:
-    System.out.println (" Este número corresponde al Martes");
+    System.out.println ("Este número corresponde al Martes");
     break;
     case 3:
-    System.out.println (" Este número corresponde al Miércoles");
+    System.out.println ("Este número corresponde al Miércoles");
     break;
     case 4:
-    System.out.println (" Este número corresponde al Jueves");
+    System.out.println ("Este número corresponde al Jueves");
     break;
     case 5:
-    System.out.println (" Este número corresponde al Viernes");
+    System.out.println ("Este número corresponde al Viernes");
     break;
     case 6:
-    System.out.println (" Este número corresponde al Sábado");
+    System.out.println ("Este número corresponde al Sábado");
     break;
     case 7:
-    System.out.println (" Este número corresponde al Domingo");
+    System.out.println ("Este número corresponde al Domingo");
     break;
     default:
-    System.out.println (" El número introducido no es correcto");
+    System.out.println ("El número introducido no es correcto");
     }
   }   
 }
