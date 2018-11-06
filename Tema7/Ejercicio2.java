@@ -17,9 +17,9 @@ public class Ejercicio2 {
     simbolo[7] = '+';
     simbolo[8] = 'Q';
     
-    System.out.print ("Los valores del array son: ");
+    System.out.println ("Los valores del array son: ");
     for (int i = 0; i < 10; i++) {
-    System.out.print(simbolo[i] + ", ");
+    System.out.println("Elemento " + i + " : " + simbolo[i]);
     }
     
   }
