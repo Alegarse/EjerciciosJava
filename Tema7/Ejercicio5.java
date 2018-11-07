@@ -13,14 +13,15 @@ public class Ejercicio5 {
     
     int[] num = new int [10];
     int i;
-    int max = Integer.MIN_VALUE;
-    int min = Integer.MAX_VALUE;
+    int max = num [0];
+    int min = num [0];
     
-    System.out.println ("Por favor,introduzca un número entero y pulse intro");
-   
-    
+    System.out.print ("Por favor,introduzca un número entero y pulse intro: ");
     for (i = 0; i < 10; i++) {
       num[i] = Integer.parseInt(System.console().readLine());
+    }
+    
+    for (i = 0; i < 10; i++) {
       if (num[i] < min) {
         min = num[i];
       }
