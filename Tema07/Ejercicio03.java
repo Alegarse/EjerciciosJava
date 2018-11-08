@@ -19,12 +19,12 @@ public class Ejercicio3 {
     
     System.out.println ("Los valores del array son: ");
     for (int i = 0; i < 10; i++) {
-    System.out.println("Posición array " + i + " : " + num[i]);
+    System.out.print(+ num[i] + " ");
     }
     System.out.println("");
     System.out.println ("Los valores del array invertidos son: ");
     for (int i = 9; i >= 0; i--) {
-    System.out.println("Posición array " + i + " : " + num[i]);
+    System.out.print(+ num[i] + " ");
     }
     
   }

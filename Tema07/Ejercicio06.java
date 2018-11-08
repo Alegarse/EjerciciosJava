@@ -9,7 +9,7 @@
 public class Ejercicio6 {
   public static void main(String[] args) {
     
-    System.out.println ("Programa que pide 15 numero e invierte el orden al mostrarlos");
+    System.out.println ("Programa que pide 15 numeros y los reordena en el array");
     
     int[] array = new int [15];
     int i;
@@ -20,11 +20,11 @@ public class Ejercicio6 {
     }
     System.out.println("Array original:");
     for (i = 0; i <= 14; i++) {
-      System.out.println("Posición " + i + ": " + array [i]);
+      System.out.println(array [i] + " ");
     }
     System.out.println("Array invertido:");
     for (i = 14; i >= 0; i--) {
-      System.out.println("Posición " + i + ": " + array [i]);
+      System.out.println(+ array [i] + " ");
     }
   }
 }
