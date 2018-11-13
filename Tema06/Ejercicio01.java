@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio1 {
+public class Ejercicio01 {
   public static void main(String[] args) {
     int dado = (int) (Math.random() * 6) + 1;
     int dado2 = (int) (Math.random() * 6) + 1;

@@ -1,12 +1,13 @@
 /** Ejercicios de Java
 *
-* Ejercicio 5 del Tema 4
+* Ejercicio 5 del Tema 4: Realiza un programa que resuelva una ecuación de primer grado (del tipo ax +
+b = 0).
 *
 * Autor: Alejandro  García Serrano
 */
 
 
-public class Ejercicio5 {
+public class Ejercicio05 {
   public static void main(String[] args) {
     
     System.out.println("Este programa resuelve ecuaciones de primer grado del tipo ax + b = 0");

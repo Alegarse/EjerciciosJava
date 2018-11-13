@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio3 {
+public class Ejercicio03 {
   public static void main(String[] args) {
    System.out.println("Calculo de equivalencia de pesetas a euros");
     System.out.print("Introduzca el importe en pesetas que desea conocer en euros: ");

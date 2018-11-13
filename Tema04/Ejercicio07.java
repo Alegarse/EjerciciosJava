@@ -1,12 +1,12 @@
 /** Ejercicios de Java
 *
-* Ejercicio 7 del Tema 4
+* Ejercicio 7 del Tema 4: Realiza un programa que calcule la media de tres notas.
 *
 * Autor: Alejandro  García Serrano
 */
 
 
-public class Ejercicio7{
+public class Ejercicio07{
   
   public static void main(String[] args) {
     

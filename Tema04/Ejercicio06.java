@@ -1,12 +1,13 @@
 /** Ejercicios de Java
 *
-* Ejercicio 6 del Tema 4
+* Ejercicio 6 del Tema 4: Realiza un programa que calcule el √
+tiempo que tardará en caer un objeto desde una altura h.
 *
 * Autor: Alejandro  García Serrano
 */
 
 
-public class Ejercicio6 {
+public class Ejercicio06 {
   
   final static double g = 9.81;
   

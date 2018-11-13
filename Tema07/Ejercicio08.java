@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio8 {
+public class Ejercicio08 {
   public static void main(String[] args) {
     
     System.out.println ("Programa que muestra la temperatura media de los meses de un año");

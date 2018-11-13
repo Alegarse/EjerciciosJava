@@ -1,6 +1,7 @@
 /** Ejercicios de Java
 *
-* Ejercicio 11 del Tema 4
+* Ejercicio 11 del Tema 4: Escribe un programa que dada una hora determinada (horas y minutos),
+calcule los segundos que faltan para llegar a la medianoche.
 *
 * Autor: Alejandro  García Serrano
 */

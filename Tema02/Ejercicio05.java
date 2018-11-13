@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio5 {
+public class Ejercicio05 {
   public static void main(String[] args) {
 
     int pesetas = 500000;

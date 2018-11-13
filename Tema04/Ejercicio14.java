@@ -1,6 +1,7 @@
 /** Ejercicios de Java
 *
-* Ejercicio 14 del Tema 4
+* Ejercicio 14 del Tema 4: Realiza un programa que diga si un número introducido por teclado es par y/o
+divisible entre 5.
 *
 * Autor: Alejandro  García Serrano
 */

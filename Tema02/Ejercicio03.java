@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio3 {
+public class Ejercicio03 {
   public static void main(String[] args) {
 
     String nombre = "Alejandro García Serrano";

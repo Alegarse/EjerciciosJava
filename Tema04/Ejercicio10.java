@@ -1,6 +1,7 @@
 /** Ejercicios de Java
 *
-* Ejercicio 10 del Tema 4
+* Ejercicio 10 del Tema 4:Escribe un programa que nos diga el horóscopo a partir del día y el mes de
+nacimiento.
 *
 * Autor: Alejandro  García Serrano
 */

@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio5 {
+public class Ejercicio05 {
   public static void main(String[] args) {
     
     System.out.println ("Programa que pide 10 numero y especifica cual es el máximo y cual el mínimo");

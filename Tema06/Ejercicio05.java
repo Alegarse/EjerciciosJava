@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio5 {
+public class Ejercicio05 {
   public static void main(String[] args) {
     
     int maximo = 100;
@@ -20,7 +20,7 @@ public class Ejercicio5 {
 
     System.out.println("");
     if (numero < maximo){
-    System.out.println ("Elvalor máximo es " + maximo);
+    System.out.println ("El valor máximo es " + maximo);
     }else{
     Sytem.out.println ("El valor máximo es " + numero);
     }

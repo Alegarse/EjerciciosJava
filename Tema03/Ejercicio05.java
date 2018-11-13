@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio5 {
+public class Ejercicio05 {
   public static void main(String[] args) {
     System.out.println("Programa de cálculo de área de rectangulos");
     System.out.print("Introduzca la longitud de la base en centímetros: ");

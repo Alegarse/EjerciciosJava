@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio4 {
+public class Ejercicio04 {
   public static void main(String[] args) {
        
     System.out.println("El programa una sucesión de 20 números aleatorios entre 0 y 10,ambos inclusive");

@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio3 {
+public class Ejercicio03 {
   public static void main(String[] args) {
     System.out.println("Traducción de palabras Inglés / Español");
     System.out.println();

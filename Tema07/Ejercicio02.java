@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio2 {
+public class Ejercicio02 {
   public static void main(String[] args) {
     char[] simbolo = new char [10];
     

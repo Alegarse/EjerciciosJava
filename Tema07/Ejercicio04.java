@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio4 {
+public class Ejercicio04 {
   public static void main(String[] args) {
     
     System.out.println ("Programa que genera 20 números aleatorios u les calcula el cuadrado y el cubo: ");

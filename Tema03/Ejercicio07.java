@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio7 {
+public class Ejercicio07 {
   public static void main(String[] args) {
     System.out.println("Programa para obtener el importe total de una factura a partir de la base imponible");
     System.out.print("Introduzca la base imponible del producto: ");

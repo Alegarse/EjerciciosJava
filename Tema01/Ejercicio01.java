@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio1 {
+public class Ejercicio01 {
   public static void main(String[] args) {
     String verde = "\033[32m";
     System.out.println("Estudio FPDAM y mi nombre es:");

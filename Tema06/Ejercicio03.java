@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio3 {
+public class Ejercicio03 {
   public static void main(String[] args) {
     int numeroPalo = (int) (Math.random() * 4) + 1;
     int numeroFigura = (int) (Math.random() * 9) + 1;

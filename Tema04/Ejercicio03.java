@@ -1,12 +1,13 @@
 /** Ejercicios de Java
 *
-* Ejercicio 3 del Tema 4
+* Ejercicio 3 del Tema 4:Escribe un programa en que dado un número del 1 a 7 escriba el correspon-
+diente nombre del día de la semana.
 *
 * Autor: Alejandro  García Serrano
 */
 
 
-public class Ejercicio3 {
+public class Ejercicio03 {
   public static void main(String[] args) {
     
     System.out.print("Por favor, introduzca un número de 1 al 7 y le diré su correspondencia de día de la semana: ");

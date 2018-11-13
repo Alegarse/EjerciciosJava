@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio3 {
+public class Ejercicio03 {
   public static void main(String[] args) {
     
     System.out.println ("Programa que lee 10 números por teclado y luego los muestra en orden inverso");

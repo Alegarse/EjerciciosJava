@@ -1,6 +1,7 @@
 /** Ejercicios de Java
 *
-* Ejercicio 13 del Tema 4
+* Ejercicio 13 del Tema 4: Escribe un programa que ordene tres números enteros introducidos por
+teclado.
 *
 * Autor: Alejandro  García Serrano
 */

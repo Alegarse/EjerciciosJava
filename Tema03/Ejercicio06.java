@@ -6,7 +6,7 @@
 */
 
 
-public class Ejercicio6 {
+public class Ejercicio06 {
   public static void main(String[] args) {
     System.out.println("Programa de cálculo de área de triángulos");
     System.out.print("Introduzca la longitud de la base en centímetros: ");

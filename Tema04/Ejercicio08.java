@@ -1,12 +1,13 @@
 /** Ejercicios de Java
 *
-* Ejercicio 8 del Tema 4
+* Ejercicio 8 del Tema 4: Amplía el programa anterior para que diga la nota del boletín (insuficiente,
+suficiente, bien, notable o sobresaliente).
 *
 * Autor: Alejandro  García Serrano
 */
 
 
-public class Ejercicio8{
+public class Ejercicio08{
   
   public static void main(String[] args) {
     

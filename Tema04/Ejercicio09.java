@@ -1,20 +1,23 @@
 /** Ejercicios de Java
 *
-* Ejercicio 10 del Tema 4
+* Ejercicio 9 del Tema 4: Realiza un programa que resuelva una ecuación de segundo grado (del tipo
+ax 2 + bx + c = 0).
 *
 * Autor: Alejandro  García Serrano
 */
 
 
-public class Ejercicio10{
+public class Ejercicio09{
   
   public static void main(String[] args) {
     
-    System.out.println("Este programa te dice que Horóscopo eres según tu fecha de nacimiento");
-    System.out.print("Introduzca su día de nacimiento: ");
-    int dia = Integer.parseInt(System.console().readLine());
-    System.out.print("Introduzca su mes de nacimiento (1 -12): ");
-    int mes = Integer.parseInt(System.console().readLine());
+    System.out.println("Este programa te dice la solución a una ecuación del tipo ax 2 + bx + c = 0).");
+    System.out.print("Introduca el valor de a: ");
+    int a = Integer.parseInt(System.console().readLine());
+    System.out.print("Introduca el valor de b: ");
+    int b = Integer.parseInt(System.console().readLine());
+    System.out.print("Introduca el valor de c: ");
+    int c = Integer.parseInt(System.console().readLine());
     
     if ((a == 0) && (b != 0)) {
       System.out.println ("La ecuación no tiene solución");

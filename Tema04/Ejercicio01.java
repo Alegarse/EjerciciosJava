@@ -1,12 +1,12 @@
 /** Ejercicios de Java
 *
-* Ejercicio 1 del Tema 4
+* Ejercicio 1 del Tema 4. Escribe un programa que pida por teclado un día de la semana y  que diga qué asignatura toca a primera hora ese día.
 *
 * Autor: Alejandro  García Serrano
 */
 
 
-public class Ejercicio1 {
+public class Ejercicio01 {
   public static void main(String[] args) {
     String dia;
     System.out.print("Por favor, introduzca un día de la semana para conocer que asignatura tiene a primera hora ");
