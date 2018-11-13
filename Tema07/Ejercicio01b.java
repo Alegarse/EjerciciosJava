@@ -22,9 +22,10 @@ public class Ejercicio01b {
     int columna;
     
     System.out.println("Array num   Columna0 Columna1 Columna2 Columna3 Columna4 Columna5");
+    System.out.println("           -------------------------------------------------------");
     
     for  (fila=0 ; fila <3 ; fila++ ){
-      System.out.print ("Fila " + fila + " ");
+      System.out.print ("Fila " + fila + "  ");
         
         for (columna=0 ; columna<6 ; columna++ ){
           System.out.printf ( "%9d", num[fila][columna]);
