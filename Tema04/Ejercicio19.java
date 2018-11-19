@@ -11,30 +11,38 @@ public class Ejercicio19{
   
   public static void main(String[] args) {
     
-    System.out.println("Programa para averiguar la pimera cifra de un número  de máximo 5 cifras introducido por teclado");
+    System.out.println("Programa que indica cuantos dígitos tiene un número");
     System.out.println("================================================================================================");
-
-    int num;
     
-    /** DESARROLLO*/
-    
+    int num, numabs;
+    int digitos = 0;
     System.out.print("Introduce el número entero que tengas en mente: ");
     num = Integer.parseInt(System.console().readLine());
+    numabs = Math.abs(num);
+    System.out.println();
+
+     /** DESARROLLO*/
     
-    if (num > 9999) {
-    System.out.print ("La primera cifra del número es " + (num / 10000));
+    
+    if (numabs > 9999) {
+      digitos = 5;
+      System.out.print ("El número " + num + " tiene " + digitos + " digitos");
     }
-    if ((num > 999) && (num <= 9999)) {
-    System.out.print ("La primera cifra del número es " + (num / 1000));
+    if ((numabs > 999) && (numabs <= 9999)) {
+      digitos = 4;
+      System.out.print ("El número " + num + " tiene " + digitos + " digitos");
     }
-    if ((num > 99) && (num <= 999)){
-    System.out.print ("La primera cifra del número es " + (num / 100));
+    if ((numabs > 99) && (numabs <= 999)){
+      digitos = 3;
+      System.out.print ("El número " + num + " tiene " + digitos + " digitos");
     }
-    if ((num > 9) && (num <= 99)){
-    System.out.print ("La primera cifra del número es " + (num / 10));
+    if ((numabs > 9) && (numabs <= 99)){
+      digitos = 2;
+      System.out.print ("El número " + num + " tiene " + digitos + " digitos");
     }
-    if (num <= 9){
-    System.out.print ("La primera y única cifra del número es " + num);
+    if (numabs <= 9){
+      digitos = 1;
+      System.out.print ("El número " + num + " tiene " + digitos + " digito");
     }
       
   } 
