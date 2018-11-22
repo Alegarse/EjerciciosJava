@@ -11,11 +11,13 @@ public class Ejercicio20{
   
   public static void main(String[] args) {
     
-    System.out.println("Programa que comprueba si un número introducido es capicúa);
+    System.out.println("Programa que comprueba si un número introducido es capicúa");
     System.out.println("================================================================================================");
     
-    int num,numInv;
-    int resto = 0;
+    int num;
+    int numInv = 0;
+    int resto = 1;
+    int numaux = 0;
    
     System.out.print("Introduce el número entero que tengas en mente: ");
     num = Math.abs(Integer.parseInt(System.console().readLine()));
@@ -23,10 +25,11 @@ public class Ejercicio20{
 
      /** DESARROLLO*/
     
-    while(resto != 0) {
+    while(num%10 != 0) {
           resto=num%10;
-          numInv=numInv*10+resto;
-          falta=falta/10;
+          numaux = resto;
+          num = num / 10;
+          
     }
     
   } 
