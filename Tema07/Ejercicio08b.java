@@ -1,17 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package tema8;
-
+/** Ejercicios de Java
+*
+* Ejercicio 8b del Tema 7:Escribe un programa que, dada una posición en un tablero de ajedrez, nos diga
+a qué casillas podría saltar un alfil que se encuentra en esa posición. Como se
+indica en la figura, el alfil se mueve siempre en diagonal. El tablero cuenta con
+64 casillas. Las columnas se indican con las letras de la “a” a la “h” y las filas
+se indican del 1 al 8.
+*
+* Autor: Alejandro  García Serrano
+*/
 import java.util.Scanner;
-
-/**
- *
- * @author alejandro
- */
-public class Tema8 {
+public class Ejercicio08b {
 
     /**
      * @param args the command line arguments
@@ -28,183 +26,64 @@ public class Tema8 {
         String posicion = s.nextLine();
         
         y = (posicion.charAt(1) - 48);
-         
         x = (posicion.charAt(0) - 97);
-//        switch (posx) {
-//            case 'a':
-//                x= 0;
-//                break;
-//            case 'b':
-//                x= 1;
-//                break;
-//            case 'c':
-//                x= 2;
-//                break;
-//            case 'd':
-//                x= 3;
-//                break; 
-//            case 'e':
-//                x= 4;
-//                break;
-//            case 'f':
-//                x= 5;
-//                break;
-//            case 'g':
-//                x= 6;
-//                break; 
-//            case 'h':
-//                x= 7;
-//                break;
-//            default:
-//                System.out.println("La coordenada introducida no es válida.");
-//                x = 0;
-//        }
+
         int xfija = x;
         int yfija = y;
         
-        // Diagonal superior derecha //
+// Diagonal superior derecha //
        
         System.out.print("Posiciones en diagonal superior derecha: ");
         while (x < 8 && y < 8) {
             x = x + 1;
             y = y + 1;
-            
-            System.out.print(letras[x] + y + " ");
-//            switch (x) {
-//                case 1:
-//                    System.out.print("b" + y + " ");
-//                    break;
-//                case 2:
-//                    System.out.print("c" + y + " ");
-//                    break;                
-//                case 3:
-//                    System.out.print("d" + y + " ");
-//                    break;                
-//                case 4:
-//                    System.out.print("e" + y + " ");
-//                    break;                
-//                case 5:
-//                    System.out.print("f" + y + " ");
-//                    break;                
-//                case 6:
-//                    System.out.print("g" + y + " ");
-//                    break;                
-//                case 7:
-//                    System.out.print("h" + y + " ");
-//                    break;
-//            }
-
+        System.out.print(letras[x] + y + " ");
         }
+        
+// Restauro valores de x e y y marco espacio de separación//
+        
         x = xfija;
         y = yfija;
-            // Diagonal superior izquierda //
-            System.out.println("");
-            System.out.print("Posiciones en diagonal superior izquierda: ");
-            while (x < 8 && y < 8) {
-            
+        System.out.println("");
+        
+// Diagonal superior izquierda //
+        
+        System.out.print("Posiciones en diagonal superior izquierda: ");
+        while (x > 0 && y < 8) {
             x = x - 1;
             y = y + 1;
-            switch (x) {
-                case 0:
-                    System.out.print("a" + y + " ");
-                    break;
-                case 1:
-                    System.out.print("b" + y + " ");
-                    break;
-                case 2:
-                    System.out.print("c" + y + " ");
-                    break;                
-                case 3:
-                    System.out.print("d" + y + " ");
-                    break;                
-                case 4:
-                    System.out.print("e" + y + " ");
-                    break;                
-                case 5:
-                    System.out.print("f" + y + " ");
-                    break;                
-                case 6:
-                    System.out.print("g" + y + " ");
-                    break;                
-                case 7:
-                    System.out.print("h" + y + " ");
-                    break;
-            }
-                       
+        System.out.print(letras[x] + y + " ");
         }
+
+// Restauro valores de x e y y marco espacio de separación//
+        
         x = xfija;
         y = yfija;
-            // Diagonal inferior derecha //
-            System.out.println("");
-            System.out.print("Posiciones en diagonal inferior derecha: ");
-            while (x < 8 && y < 8) {
+        System.out.println("");
             
+// Diagonal inferior derecha //
+
+        System.out.print("Posiciones en diagonal inferior derecha: ");
+        while (x < 7 && y > 0) {   
             x = x + 1;
             y = y - 1;
-            switch (x) {
-                case 0:
-                    System.out.print("a" + y + " ");
-                    break;
-                case 1:
-                    System.out.print("b" + y + " ");
-                    break;
-                case 2:
-                    System.out.print("c" + y + " ");
-                    break;                
-                case 3:
-                    System.out.print("d" + y + " ");
-                    break;                
-                case 4:
-                    System.out.print("e" + y + " ");
-                    break;                
-                case 5:
-                    System.out.print("f" + y + " ");
-                    break;                
-                case 6:
-                    System.out.print("g" + y + " ");
-                    break;                
-                case 7:
-                    System.out.print("h" + y + " ");
-                    break;
-            }         
+        System.out.print(letras[x] + y + " ");
+        
         }
+        
+// Restauro valores de x e y y marco espacio de separación//
+        
         x = xfija;
         y = yfija;
-            // Diagonal inferior izquierda //
-            System.out.println("");
-            System.out.print("Posiciones en diagonal inferior izquierda: ");
-            while (x < 8 && y < 8) {
+        System.out.println("");
             
+// Diagonal inferior izquierda //
+
+        System.out.print("Posiciones en diagonal inferior izquierda: ");
+        while (x > 0 && y > 0) {
             x = x - 1;
             y = y - 1;
-            switch (x) {
-                case 0:
-                    System.out.print("a" + y + " ");
-                    break;
-                case 1:
-                    System.out.print("b" + y + " ");
-                    break;
-                case 2:
-                    System.out.print("c" + y + " ");
-                    break;                
-                case 3:
-                    System.out.print("d" + y + " ");
-                    break;                
-                case 4:
-                    System.out.print("e" + y + " ");
-                    break;                
-                case 5:
-                    System.out.print("f" + y + " ");
-                    break;                
-                case 6:
-                    System.out.print("g" + y + " ");
-                    break;                
-                case 7:
-                    System.out.print("h" + y + " ");
-                    break;
-            }
-                       
+            System.out.print(letras[x] + y + " ");
         }
     }
-    
 }
