@@ -11,21 +11,27 @@ public class Ejercicio05 {
     
     int maximo = 100;
     int minimo = 199;
-    int media = 0;
+    int suma = 0;
+    int cont = 0;
+    int n;
        
-    System.out.println("El programa una sucesión de 50 números aleatorios entre 100 y 199,ambos inclusive:");
-      for (int i = 0; i <= 49; i++) {
-      System.out.print(((int)(Math.random()*99) + 100) + "  ");
+    System.out.println("El programa una sucesión de 50 números aleatorios entre 100 y 199,ambos inclusive,indicando el máximo,el mínimo y la media:");
+      for (int i = 0; i < 50; i++) {
+        n = (int)((Math.random()*99) + 100);
+        System.out.print(+ n + " ");
+        suma = suma + n;
+        cont++;
+        
+        if (n < minimo){
+            minimo = n;
+        }
+        
+        if (n > maximo){
+            maximo = n;
+        }
       }
-
-    System.out.println("");
-    if (numero < maximo){
-    System.out.println ("El valor máximo es " + maximo);
-    }else{
-    Sytem.out.println ("El valor máximo es " + numero);
-    }
-    System.out.println("El valor mínimo es " + minimo);
-    System.out.println("La media es " + media);
+      System.out.println();
+      System.out.println("El máximo es " + maximo + ", el mínimo es " + minimo + ", y su media es " +(suma/cont));
   }
 }
 
