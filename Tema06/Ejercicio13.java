@@ -18,7 +18,7 @@ public class Ejercicio13 {
       while (dado1 != dado2){
         dado1 = (int)((Math.random()*6)+1);
         dado2 = (int)((Math.random()*6)+1);
-        System.out.println("La tirada resulta- Dado 1: " + dado1 + " y Dado 2: " + dado2);
+        System.out.println("La tirada resulta - Dado 1: " + dado1 + " y Dado 2: " + dado2);
       }
 
 

@@ -1,3 +1,10 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package tema7.Arrays.Simples;
+
 /** Ejercicios de Java
 *
 * Ejercicio 9 del Tema 7
@@ -5,9 +12,11 @@
 * Autor: Alejandro  García Serrano
 */
 
-
+import java.util.Scanner;
 public class Ejercicio09 {
+    
   public static void main(String[] args) {
+    Scanner s = new Scanner(System.in);
    
     System.out.println("Programa que pide 8 números e indica si son par o impar");
     int [] numeros = new int [8];
@@ -15,7 +24,7 @@ public class Ejercicio09 {
    
     for (i = 0; i <8; i++) {
     System.out.print ("Introduzca un número y pulse intro: ");
-    numeros [i] = Integer.parseInt(System.console().readLine());
+    numeros [i] = Integer.parseInt(s.nextLine());
     }
     System.out.println();
     for (i = 0; i <8; i++) {

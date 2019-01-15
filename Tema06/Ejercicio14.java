@@ -1,3 +1,4 @@
+package tema6;
 /** Ejercicios de Java
 *
 * Ejercicio 14 del Tema 6.
