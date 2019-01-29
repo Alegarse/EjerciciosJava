@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ejercicio 4 Tema 12</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <h2><b>Ejercicio 4</b></h2>
+            <h1><b>Cálculo de la media</b></h1>
+            <form action="media.jsp" method="GET">
+                <div class="form-group mx-md-3">
+                    Nota 1
+                    <input type="number" min="0" max="10" step="0.01" name="nota1" class="form-control" placeholder="Introduzca la nota obtenida">
+                    <small id="aclaracion" class="form-text text-muted">Esta es la nota de tu primer examen.</small>
+                </div>
+                <div class="form-group mx-md-3">
+                    Nota 2
+                    <input type="number" min="0" max="10" step="0.01" name="nota2" class="form-control" placeholder="Introduzca la nota obtenida">
+                    <small id="aclaracion" class="form-text text-muted">Esta es la nota de tu segundo examen.</small>
+                </div>
+                <div class="form-group mx-md-3">
+                    Nota 3
+                    <input type="number" min="0" max="10" step="0.01" name="nota3" class="form-control" placeholder="Introduzca la nota obtenida">
+                    <small id="aclaracion" class="form-text text-muted">Esta es la nota de tu tercer examen.</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </body>
+</html>

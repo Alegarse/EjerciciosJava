@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Configura el reloj a tu gusto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Configura tu reloj</h1>
+            <form action="relojFinal.jsp">
+                Selecciona el  material de que está echo:
+                <select name="material">
+                    <option value="acero">Acero</option>
+                    <option value="oro">Oro</option>
+                </select>
+                <br>
+                Selecciona el color de la esfera:
+                <select name="color">
+                    <option value="azul" selected="">Azul</option>
+                    <option value="negro">Negro</option>
+                    <option value="verde">Verde</option>
+                </select>
+                <br>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </body>
+</html>

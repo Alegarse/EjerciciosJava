@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+              integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+              crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="container">
+            <h1><b>Juego "El Trile"</b></h1>
+            <br>
+            <h4><b>Elije en que cubilete crees que está la bola de los mostrados</b></h4>
+            <br>
+            <div class="row" align-items-center>
+                <div class=" col-2 col-sm-3">
+                    <img src="img/cubilete_tapando_bolas.png" height=150px>
+                </div>
+                <div class=" col-2 col-sm-3">
+                    <img src="img/cubilete_tapando_bolas.png" height=150px>
+                </div>
+                <div class=" col-2 col-sm-3">
+                    <img src="img/cubilete_tapando_bolas.png" height=150px>
+                </div>
+            </div>
+            <br>
+            <div class="row" align-items-center>
+                <div class=" col-2 col-sm-3">
+                    <b>Cubilete 1</b>
+                </div>
+                <div class=" col-2 col-sm-3">
+                    <b>Cubilete 2</b>
+                </div>
+                <div class=" col-2 col-sm-3">
+                    <b>Cubilete 3</b>
+                </div>
+            </div>
+            <br>
+            <form action="cubilete.jsp">
+                Selecciona el  cubilete que has elegido
+                <select name="eleccion">
+                    <option value="1">Cubilete 1</option>
+                    <option value="2">Cubilete 2</option>
+                    <option value="3">Cubilete 3</option>
+                </select>
+
+                <br>
+                <button type="submit" class="btn btn-primary">Comprobar tu suerte</button>
+            </form>
+        </div>
+    </body>
+</html>
